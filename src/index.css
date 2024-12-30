@@ -1,0 +1,20 @@
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.8);
+}
